@@ -92,15 +92,27 @@ Make sure docker is up and running if you go the `docker-compose` route
    ```sh
    git clone https://github.com/eneudys101/techcenter-2.0.git
    ```
-2. Setup 
+2. Create Python virtual enviroment 
    ```sh
-   npm install
+   python3 -m venv name-of-environment
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. activate virtual enviroment 
+   - On Windows:
+   ```sh
+   name-of-environment\Scripts\activate.bat
    ```
-
+   - On Unix, Linux or MacOS:
+   ```sh
+   source tutorial-env/bin/activate
+   ```
+4. Install python modules
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Setup database
+   ```sh
+   docker-compose up
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
