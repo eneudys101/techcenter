@@ -103,8 +103,21 @@ All the files to get the project up and running have been provided in the repo. 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Once the Project is installed for development follow these steps to get it running
 
+1. Change directory to the `manage.py` file
+   ```sh
+   cd techcenter
+   ```
+2. run migragrate command to write database changes to your development database
+   ```sh
+   python manage.py migrate
+   ```
+3. run server
+   ```sh
+   python manage.py runserver
+   ```
+   
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -114,10 +127,9 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] User Information System
+- [ ] I.T. Ticketing System
+- [ ] Printers Inventory/Inventory System
 
 See the [open issues](https://github.com/eneudys101/techcenter-2.0/issues) for a full list of proposed features (and known issues).
 
@@ -127,40 +139,23 @@ See the [open issues](https://github.com/eneudys101/techcenter-2.0/issues) for a
 
 <!-- CONTRIBUTING -->
 ## Contributing
-
+For this project [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) is used as a work flow for contributing.
 ![git-flow]
-<p align="right">(<a href="#top">back to top</a>)</p>
 
+To contribute:
 
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/eneudys101/techcenter-2.0](https://github.com/eneudys101/techcenter-2.0)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+1. Pick an issue from [Issues][issues-url] and assign to yourself. 
+   - If the change you want to make doesn't exist open a discussion. Based on the discussion a new issue will be created.
+2. Move issue to `in progress` in the project it resides
+2. Create a new branch from the `develop` branch
+3. Commit changes
+4. Push to the branch
+5. Open a Pull Request to the `develop` branch
+6. Wait for review of changes
+7. Move issue in the project to `Done`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 [git-flow]: images/git_flow.svg
+[issues-url]: https://github.com/eneudys101/techcenter-2.0/issues
