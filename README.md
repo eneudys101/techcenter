@@ -148,13 +148,12 @@ To contribute:
 1. Pick an issue from [Issues][issues-url] and assign to yourself. 
    - If the change you want to make doesn't exist open a discussion. Based on the discussion a new issue will be created.
 2. Move issue to `in progress` in the project it resides
-3. Fork the Project
-4. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-5. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-6. Push to the Branch (`git push origin feature/AmazingFeature`)
-7. Open a Pull Request to the `develop` branch
-8. Wait for review of changes
-9. Move issue in the project to `Done`
+3. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+4. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+5. Push to the Branch (`git push origin feature/AmazingFeature`)
+6. Open a Pull Request to the `develop` branch
+7. Wait for review of changes
+8. Move issue in the project to `Done`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
