@@ -140,6 +140,7 @@ See the [open issues](https://github.com/eneudys101/techcenter-2.0/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 For this project [git flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) is used as a work flow for contributing.
+
 ![git-flow]
 
 To contribute:
@@ -147,12 +148,13 @@ To contribute:
 1. Pick an issue from [Issues][issues-url] and assign to yourself. 
    - If the change you want to make doesn't exist open a discussion. Based on the discussion a new issue will be created.
 2. Move issue to `in progress` in the project it resides
-2. Create a new branch from the `develop` branch
-3. Commit changes
-4. Push to the branch
-5. Open a Pull Request to the `develop` branch
-6. Wait for review of changes
-7. Move issue in the project to `Done`
+3. Fork the Project
+4. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+5. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+6. Push to the Branch (`git push origin feature/AmazingFeature`)
+7. Open a Pull Request to the `develop` branch
+8. Wait for review of changes
+9. Move issue in the project to `Done`
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
