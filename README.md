@@ -1,12 +1,5 @@
 <div id="top"></div>
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-
-
-
 <br />
 <div align="center">
 
@@ -74,17 +67,7 @@ The purpose of this project is to build a platform where I.T. departments in sch
 <!-- GETTING STARTED -->
 ## Getting Started
 These steps are for development installation only and should not be followed for production.
-To start create a folder where the project will recide. For the presequisite you can create your own database or use the provided `docker-compose` file.
-
-### Prerequisites
-
-Required 
-
-Make sure docker is up and running if you go the `docker-compose` route 
-
-1. Setup database
-   
-   A postgres database setup is 
+All the files to get the project up and running have been provided in the repo. You can feel free to build the database and the python enviroment with any method but make sure that all the dependencies are using the versions this project uses. If you use the method below the dependencies will be created with the correct versions.
 
 ### Installation
 
@@ -94,16 +77,16 @@ Make sure docker is up and running if you go the `docker-compose` route
    ```
 2. Create Python virtual enviroment 
    ```sh
-   python3 -m venv name-of-environment
+   python3 -m venv venv
    ```
 3. activate virtual enviroment 
    - On Windows:
    ```sh
-   name-of-environment\Scripts\activate.bat
+   venv\Scripts\activate.bat
    ```
    - On Unix, Linux or MacOS:
    ```sh
-   source tutorial-env/bin/activate
+   source venv/bin/activate
    ```
 4. Install python modules
    ```sh
@@ -188,21 +171,3 @@ Project Link: [https://github.com/eneudys101/techcenter-2.0](https://github.com/
 * []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/eneudys101/techcenter-2.0.svg?style=for-the-badge
-[contributors-url]: https://github.com/eneudys101/techcenter-2.0/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/eneudys101/techcenter-2.0.svg?style=for-the-badge
-[forks-url]: https://github.com/eneudys101/techcenter-2.0/network/members
-[stars-shield]: https://img.shields.io/github/stars/eneudys101/techcenter-2.0.svg?style=for-the-badge
-[stars-url]: https://github.com/eneudys101/techcenter-2.0/stargazers
-[issues-shield]: https://img.shields.io/github/issues/eneudys101/techcenter-2.0.svg?style=for-the-badge
-[issues-url]: https://github.com/eneudys101/techcenter-2.0/issues
-[license-shield]: https://img.shields.io/github/license/eneudys101/techcenter-2.0.svg?style=for-the-badge
-[license-url]: https://github.com/eneudys101/techcenter-2.0/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
