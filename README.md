@@ -144,5 +144,5 @@ To contribute:
 [stars-url]: https://github.com/eneudys101/techcenter/stargazers
 [issues-shield]: https://img.shields.io/github/issues/eneudys101/techcenter.svg?style=for-the-badge
 [issues-url]: https://github.com/eneudys101/techcenter/issues
-[license-shield]: https://img.shields.io/github/license/eneudys101/techcenter.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge
 [license-url]: https://github.com/eneudys101/techcenter/blob/master/LICENSE.txt
