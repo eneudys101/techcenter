@@ -1,5 +1,11 @@
 <div id="top"></div>
 
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+
 <br />
 <div align="center">
 
@@ -16,34 +22,6 @@
     <a href="https://github.com/eneudys101/techcenter-2.0/issues">Request Feature</a>
   </p>
 </div>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
 
 
 <!-- ABOUT THE PROJECT -->
@@ -73,7 +51,7 @@ All the files to get the project up and running have been provided in the repo. 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/eneudys101/techcenter-2.0.git
+   git clone https://github.com/eneudys101/techcenter.git
    ```
 2. Create Python virtual enviroment 
    ```sh
@@ -131,7 +109,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] I.T. Ticketing System
 - [ ] Printers Inventory/Inventory System
 
-See the [open issues](https://github.com/eneudys101/techcenter-2.0/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/eneudys101/techcenter/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -159,4 +137,13 @@ To contribute:
 
 
 [git-flow]: images/git_flow.svg
-[issues-url]: https://github.com/eneudys101/techcenter-2.0/issues
+[contributors-shield]: https://img.shields.io/github/contributors/eneudys101/techcenter.svg?style=for-the-badge
+[contributors-url]: https://github.com/eneudys101/techcenter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/eneudys101/techcenter.svg?style=for-the-badge
+[forks-url]: https://github.com/eneudys101/techcenter/network/members
+[stars-shield]: https://img.shields.io/github/stars/eneudys101/techcenter.svg?style=for-the-badge
+[stars-url]: https://github.com/eneudys101/techcenter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/eneudys101/techcenter.svg?style=for-the-badge
+[issues-url]: https://github.com/eneudys101/techcenter/issues
+[license-shield]: https://img.shields.io/github/license/eneudys101/techcenter.svg?style=for-the-badge
+[license-url]: https://github.com/eneudys101/techcenter/blob/master/LICENSE.txt
